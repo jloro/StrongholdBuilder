@@ -12,9 +12,9 @@ Go [here](https://github.com/jloro/StrongholdBuilder/tags) and chose your platfo
 
 # Screenshots
 
-<img src="/screenshots/1.png?raw=true" width="450">&nbsp;<img src="/screenshots/2.png?raw=true" width="450">
+<img src="/screenshots/1.png" width="450">&nbsp;<img src="/screenshots/2.png" width="450">
 
-<img src="/screenshots/3.png?raw=true" width="450">&nbsp;<img src="/screenshots/4.png?raw=true" width="450">
+<img src="/screenshots/3.png" width="450">&nbsp;<img src="/screenshots/4.png" width="450">
 
 # Authors
 
