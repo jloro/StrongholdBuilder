@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affec166493e33a46b3b189eb1b879bc, type: 3}
+  m_Name: Outpost
+  m_EditorClassIdentifier: 
+  title: Outpost
+  description: You seen a outpost, it looks abandonned, but if someone is there, he
+    has a real position advantage
+  img: {fileID: 21300000, guid: 3ced0428f18494f2fa5f07480b5dc12c, type: 3}
+  score: 7
+  onSuccess: 8
+  onFailure: 12
+  eventType: 0
+  failDesciption: Orcs were hiding in the outpost and start shooting arrow when your
+    approaching
+  successDesciption: The outpost was empty, from this post, you can see fog from afar,
+    it's the orcs, they are comming !

@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1206835940404777499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1206835940404777497}
+  - component: {fileID: 1206835940404777496}
+  - component: {fileID: 1206835940404777502}
+  - component: {fileID: 1206835940404777501}
+  - component: {fileID: 1206835940404777500}
+  - component: {fileID: 1206835940404777503}
+  m_Layer: 0
+  m_Name: BuildingManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1206835940404777497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206835940404777499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1206835940404777496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206835940404777499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1b0e88773466240b762512ad47f06c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1206835940404777502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206835940404777499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1440bbc627b77429024fc02d411f12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotation: 20
+--- !u!114 &1206835940404777501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206835940404777499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ed5c8e994daae43ad8cb30002899ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  farmPrefabs:
+  - {fileID: 7218638315116161373, guid: 0513b29142ba14ab9aabed00dbc10f54, type: 3}
+  minePrefabs:
+  - {fileID: 1228083955340204797, guid: 20dfd054c5a51429686e4e77d0277f56, type: 3}
+  sawmillPrefabs:
+  - {fileID: 4693092687748641149, guid: c37171b8e0c654d4382d665e4ffab92a, type: 3}
+  homePrefabs:
+  - {fileID: 3545557777947689949, guid: 1ebe54c3e59ae4435a282db7e98037af, type: 3}
+  - {fileID: 3545557777947689949, guid: ca74837a1d69a49cd9caf400955639cc, type: 3}
+  cityHallPrefabs:
+  - {fileID: 3970800127982341930, guid: efc7676785ee34764b0f5476dee13738, type: 3}
+  bunkerPrefabs:
+  - {fileID: 472929117357214565, guid: 4b57a8fb1cf264c398d537a5b951a4f1, type: 3}
+  barrackPrefabs:
+  - {fileID: 8246973253731074662, guid: 31875b91a354f41d29dcb81acdaf28ca, type: 3}
+  academyPrefabs:
+  - {fileID: 307120635129615464, guid: 2ed461092e1054a659a036d981f8e01c, type: 3}
+  towerPrefabs: []
+  gatePrefabs:
+  - {fileID: 1536895720224403343, guid: f05112b9d58a14e549504cb1526b9a3a, type: 3}
+  wallPrefabs:
+  - {fileID: 7101869946167466465, guid: 758ab804cf7e1b84e98976b744c2b5e8, type: 3}
+  polePrefabs:
+  - {fileID: 3276938041477699187, guid: 76be446f22f374978af73d6a9677f43d, type: 3}
+  buildingIsSelected: 0
+--- !u!114 &1206835940404777500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206835940404777499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d9b1c573abeb24c81d94bd08bffa0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotation: 0
+  maxWallSize: 25
+  minWallSize: 1
+  cam: {fileID: 0}
+  poleBuildingComponent: {fileID: 0}
+  wallBuildingComponent: {fileID: 0}
+  placing: 0
+  placingPole: 0
+  pole: {fileID: 0}
+  endingPole: {fileID: 0}
+  wall: {fileID: 0}
+--- !u!114 &1206835940404777503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206835940404777499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba93aa2a238657f43941fca3612ee251, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

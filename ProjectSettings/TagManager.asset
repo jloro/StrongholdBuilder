@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - terrain
+  - currentWall
+  - placed
+  - Barrack
+  - Enemy
+  - farmSlot
+  - mineSlot
+  - sawmillSlot
+  - Wall Destroy Event
+  - button
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Terrain
+  - 
+  - Building
+  - FieldOfView
+  - Units
+  - 
+  - Enemy Ignore Raycast
+  - Unit Ignore Raycast
+  - 
+  - 
+  - 
+  - Enemy
+  - Minimap
+  - 
+  - Ignore Navmesh
+  - 
+  - Minimap Square
+  - 
+  - 
+  - CamUI
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affec166493e33a46b3b189eb1b879bc, type: 3}
+  m_Name: Easy
+  m_EditorClassIdentifier: 
+  title: easy
+  description: youcandoit
+  img: {fileID: 21300000, guid: f21f5233bd8724a8494a3be8fa0a5937, type: 3}
+  score: 5
+  onSuccess: 1
+  onFailure: 11
+  eventType: 1
+  failDesciption: you looser
+  successDesciption: at last

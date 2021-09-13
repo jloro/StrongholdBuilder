@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affec166493e33a46b3b189eb1b879bc, type: 3}
+  m_Name: Orcs
+  m_EditorClassIdentifier: 
+  title: Group of orcs
+  description: You find a group of 4 orcs, one of them seems hurt, they didn't seen
+    you already, they surely have informations do You want to attack them ?
+  img: {fileID: 21300000, guid: 7a848b0c0ccbf49f5b2e4d52856480ff, type: 3}
+  score: 11
+  onSuccess: 8
+  onFailure: 12
+  eventType: 0
+  failDesciption: the orcs are too good fighter for your team, you managed to flee
+    like coward after realising their superiority
+  successDesciption: You taken them by surprise, 2 of them fall under your arrows
+    before aknowledge your presence

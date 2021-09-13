@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affec166493e33a46b3b189eb1b879bc, type: 3}
+  m_Name: OrcScout
+  m_EditorClassIdentifier: 
+  title: Orc scout
+  description: You found 3 orc scout, they surely get informations, but 2 of theme
+    seems well trained
+  img: {fileID: 21300000, guid: 0e09149fd99724fb5a6c6ca205010573, type: 3}
+  score: 10
+  onSuccess: 8
+  onFailure: 12
+  eventType: 0
+  failDesciption: you ahve been defeated, those orc were too strong for you
+  successDesciption: You managed to kill both body gard and interrogate the last.
+    Well done !

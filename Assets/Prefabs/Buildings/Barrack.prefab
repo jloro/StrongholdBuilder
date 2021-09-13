@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &931978544991780526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4230098671625292989}
+  - component: {fileID: 5183452867442046603}
+  - component: {fileID: 1500784444537506418}
+  - component: {fileID: 603886145810132287}
+  m_Layer: 2
+  m_Name: barrack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4230098671625292989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931978544991780526}
+  m_LocalRotation: {x: 0.0000018099951, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.34, y: 5, z: 4.57}
+  m_LocalScale: {x: 150, y: 140, z: 140}
+  m_Children: []
+  m_Father: {fileID: 3546774983986405901}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5183452867442046603
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931978544991780526}
+  m_Mesh: {fileID: 839736791519082144, guid: bde085d34839e4d55a4f9dad89cdd471, type: 3}
+--- !u!23 &1500784444537506418
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931978544991780526}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 426ec58c7ff744bd39c5a04a7e4912c0, type: 2}
+  - {fileID: 2100000, guid: 25f1c8ca0065d43859055231bc4a6026, type: 2}
+  - {fileID: 2100000, guid: d55643526ec824be1b6a351cd2ebcbff, type: 2}
+  - {fileID: 2100000, guid: 7590e8904fafd4468a1e434ea1443892, type: 2}
+  - {fileID: 2100000, guid: 210a1ae93f330438990078a49c97ad0c, type: 2}
+  - {fileID: 2100000, guid: cf7aaeb14790c40b9b6efb661083ba1f, type: 2}
+  - {fileID: 2100000, guid: b6458163861ee40adbc0f0f81070942a, type: 2}
+  - {fileID: 2100000, guid: 7758c54a0c5654ecfaa7ebd0de32952a, type: 2}
+  - {fileID: 2100000, guid: 9220e3bd9a7994e2b8e7c6e6570cd56b, type: 2}
+  - {fileID: 2100000, guid: 5dad8b4343514436caedab859a770a01, type: 2}
+  - {fileID: 2100000, guid: b97b3df2857244052b66fdde8030de90, type: 2}
+  - {fileID: 2100000, guid: 85d621fd7e42c4f00a4fef908c6380f9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &603886145810132287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931978544991780526}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0
+  eraseRenderer: 0
+  originalLayer: 0
+  originalMaterials: []
+--- !u!1 &1652115445467804974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5423215753534857249}
+  m_Layer: 2
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5423215753534857249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652115445467804974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.62, y: 0, z: 7.86}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3546774983986405901}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8246973253731074662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3546774983986405901}
+  - component: {fileID: 5839925693410178494}
+  - component: {fileID: 6724401837272423396}
+  - component: {fileID: -1269862159954163210}
+  - component: {fileID: 4741881522644249539}
+  m_Layer: 2
+  m_Name: Barrack
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3546774983986405901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246973253731074662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4230098671625292989}
+  - {fileID: 5423215753534857249}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &5839925693410178494
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246973253731074662}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 23.90852, y: 7.2995157, z: 18.92021}
+  m_Center: {x: 3.8554134, y: 3.5159116, z: -2.2683487}
+--- !u!54 &6724401837272423396
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246973253731074662}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!208 &-1269862159954163210
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246973253731074662}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 11.95426, y: 3.649758, z: 9.460105}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 3.855413, y: 3.515912, z: -2.268349}
+  m_TimeToStationary: 0.5
+--- !u!114 &4741881522644249539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246973253731074662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb6dbe34ee4f4b14b25313a9d50ce96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hpMax: 100
+  _hp: 0
+  description: Permet de former des soldats
+  name: Barrack
+  buildingSound: {fileID: 8300000, guid: 4cf54b07e621c4d248717f2a39669db3, type: 3}
+  cost:
+    wood: 300
+    food: 100
+    stone: 400
+  renderer: {fileID: 1500784444537506418}
+  type: 8
+  debris: {fileID: 2216002964978781360, guid: 3eb6db2bfc64845ddb28a02603d4622f, type: 3}
+  _wallDestroyEvent: {fileID: 0}
+  _lvl: 0
+  _lvlMax: 0
+  _lvlMeshs: []
+  data: {fileID: 11400000, guid: ea932dfb9415d46a3967b5c9bafc7c8a, type: 2}
+  outline: {fileID: 603886145810132287}
+  infantryData: {fileID: 11400000, guid: aa6310af03598bc4fa9f10572ed424dc, type: 2}
+  archerData: {fileID: 11400000, guid: 6174ce8de99511e4f9ca1d4fa79cf042, type: 2}
+  _spawn: {fileID: 1652115445467804974}
+  debug_UnlimitedUnit: 0
+  spawStatus: 0

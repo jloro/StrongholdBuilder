@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affec166493e33a46b3b189eb1b879bc, type: 3}
+  m_Name: AbandonnedCamp
+  m_EditorClassIdentifier: 
+  title: AbandonnedCamp
+  description: You find a abandonned orc campement, maybe there are information lefts
+    ?
+  img: {fileID: 21300000, guid: f53e666c1bee1424bad30f023854a4bf, type: 3}
+  score: 10
+  onSuccess: 8
+  onFailure: 0
+  eventType: 0
+  failDesciption: You found Nothing
+  successDesciption: You find Informtion about a planned assault
