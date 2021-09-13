@@ -6,15 +6,15 @@ This project ha been done for 42's Open Project.
 
 Preview on [itch](https://moicestderpy.itch.io/stronghold-builder).
 
+## Download
+
+Go [here](https://github.com/jloro/StrongholdBuilder/tags) and chose your platform.
+
 # Screenshots
 
-![Start](/screenshots/1.png?raw=true "start")
+<img src="/screenshots/1.png?raw=true" width="450">&nbsp;<img src="/screenshots/2.png?raw=true" width="450">
 
-![Ingame](/screenshots/2.png?raw=true "ingame")
-
-![Explo](/screenshots/3.png?raw=true "explo")
-
-![GameOver](/screenshots/4.png?raw=true "gameover")
+<img src="/screenshots/3.png?raw=true" width="450">&nbsp;<img src="/screenshots/4.png?raw=true" width="450">
 
 # Authors
 
